@@ -1,0 +1,13 @@
+.body {
+    background-color: green;
+}
+
+.feature-1 {
+    background-color: grey;
+    border-radius: 4px;
+}
+
+.info {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
