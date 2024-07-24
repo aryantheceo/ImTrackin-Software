@@ -1,0 +1,106 @@
+/* * {
+    align-items: center;
+} */
+
+body {
+    background-color: rgb(244, 255, 244);
+    display: inline-block;
+    align-items: center;
+}
+
+.info {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding:  0 24px 8px 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+h3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.card{
+    background-color: white;
+    width: 198px; 
+    border-radius: 8px;
+    padding: 0 0 0 0;
+    margin: 16px;
+    justify-content: center;
+    /* align-self: center; */
+}
+
+.image{
+    padding: 4px;
+}
+.image img{
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 18px;
+}
+.content {
+    padding: 4px;
+}
+
+.content p {
+    font-size: 12px;
+    color: rgb(135, 135, 193);
+}
+
+.content-1 {
+    padding: 4px;
+}
+
+.content-1 p {
+    font-size: 12px;
+    color: rgb(135, 135, 193);
+}
+
+.content-2 {
+    padding: 4px;
+}
+
+.content-2 p {
+    font-size: 12px;
+    color:rgb(135, 135, 193)
+}
+
+.capsules {
+    padding: 0 32px 0 16px;
+}
+
+.capsules span {
+    border: 2px;
+    padding: 0px 8px;
+    border-radius: 8px;
+    font-size: 8px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: bisque;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: rgb(98, 67, 219);
+    color: azure;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+}
